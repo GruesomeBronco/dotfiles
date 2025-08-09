@@ -1,0 +1,11 @@
+- defaults:
+    link:
+      create: true    # создаст недостающие папки (на стороне назначения)
+      relink: true    # перезалинкует, если уже есть неправильная ссылка
+
+- link:
+    ~/.zshrc: zsh/.zshrc
+    ~/.p10k.zsh: zsh/.p10k.zsh
+    ~/.oh-my-zsh: zsh/.oh-my-zsh
+    ~/.config/kitty: kitty
+    
