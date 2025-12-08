@@ -4,6 +4,10 @@
 # --- Шрифты ---
 # font_family FiraCode Nerd Font  
 font_size 14.0
+# Fix for Docker Compose spinner freezing issue
+# Maps the entire Braille Pattern range (U+2800 to U+28FF)
+# The U+2834 character (⠴) falls within this range.
+# symbol_map U+2800-U+28FF DejaVu Sans Mono
 
 
 # bold_font auto
@@ -45,8 +49,21 @@ background_opacity 1
 
 
 # BEGIN_KITTY_FONTS
-font_family      family="FiraCode Nerd Font"
+font_family      family="DejaVu Sans Mono"
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
+
+# # 1. Block Elements (U+2580) - Used for progress bars
+# symbol_map U+2580-U+259F DejaVu Sans Mono
+
+# # 2. Geometric Shapes (U+25A0) - Common CLI symbols (the new map)
+# symbol_map U+25A0-U+25FF DejaVu Sans Mono
+
+# # 3. Braille Patterns (U+2800) - Used for spinners (the original suspect)
+# symbol_map U+2800-U+28FF DejaVu Sans Mono
+
+# # 4. Check Mark
+# symbol_map U+2714 DejaVu Sans Mono
+
 # END_KITTY_FONTS
