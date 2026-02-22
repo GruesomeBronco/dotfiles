@@ -8,3 +8,9 @@
     ~/.p10k.zsh: zsh/.p10k.zsh
     ~/.oh-my-zsh: zsh/.oh-my-zsh
     ~/.config/kitty: kitty
+    ~/.config/flameshot: flameshot
+    ~/.config/sxhkd: sxhkd
+    ~/.config/Code/User/settings.json: vscode/settings.json
+    ~/.config/Code/User/keybindings.json: vscode/keybindings.json
+    ~/.gitconfig: .gitconfig
+    ~/.zshenv: zsh/.zshenv

@@ -1,0 +1,40 @@
+{
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    // Python
+    "python.analysis.typeCheckingMode": "standard",
+    // Main window settings
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "Ayu Dark",
+    "workbench.iconTheme": "ayu",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.compactFolders": false,
+    "workbench.activityBar.location": "top",
+    "extensions.ignoreRecommendations": true,
+    // Editor settings
+    "editor.fontSize": 14,
+    "editor.cursorBlinking": "phase",
+    "editor.accessibilitySupport":"off",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled":false,
+    "editor.rulers": [80],
+    "editor.scrollBeyondLastLine": false,
+    // Terminal
+    "terminal.external.linuxExec": "kitty",
+    "terminal.integrated.profiles.linux": {
+        "zsh": { "path": "/usr/bin/zsh", "args": ["-l"] }
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    // Other settings
+    "telemetry.telemetryLevel": "off",
+    "extensions.autoUpdate": false,
+    "window.newWindowProfile": "Daffiriniuous",
+    "window.menuBarVisibility": "compact",
+    "update.mode": "none",
+}
