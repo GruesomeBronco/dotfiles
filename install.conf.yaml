@@ -14,3 +14,4 @@
     ~/.config/Code/User/keybindings.json: vscode/keybindings.json
     ~/.gitconfig: .gitconfig
     ~/.zshenv: zsh/.zshenv
+    ~/.config/yazi: yazi
