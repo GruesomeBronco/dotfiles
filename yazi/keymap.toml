@@ -1,0 +1,4 @@
+[[mgr.prepend_keymap]]
+on = "<F2>"
+run = "shell 'code %h'"
+desc = "Open in VS Code"
